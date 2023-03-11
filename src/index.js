@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Banner from './components/banner/banner';
 import Menu from './components/menu/menu';
+import Footer from './components/footer/footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
       line3="Riding is a family affair"
       line4="More stories of freedom"/>
     <Banner />
+    <Footer />
     <App />
   </React.StrictMode>
 );

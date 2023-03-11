@@ -1,0 +1,115 @@
+.harleybanner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  background-color: #d05800;
+  padding: 20px 0px 20px 0px;
+  height: 216px;
+}
+
+.harleybanner h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.harleybanner button {
+  background-color: #5c5646;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.harley-text{
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.harleybanner .image {
+  position: relative;
+  width: 30%;
+  height: 120%;
+  overflow: hidden;
+}
+
+.harleybanner .image .largeview {
+  position: absolute;
+  left: -20%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.harleybanner .image .smallview {
+  display: none;
+}
+
+.harleybanner .imageright {
+  position: relative;
+  width: 30%;
+  height: 119%;
+  overflow: hidden;
+}
+
+.harleybanner .imageright img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  right: 5%;
+}
+
+@media (max-width: 767px) {
+
+  /* Adjust styles for smaller screens */
+  .harleybanner h2 {
+    font-size: 15px;
+    }
+  .harley-text{
+    position: absolute;
+    z-index: 99;
+    width: 65%;
+    right: 17%;
+  }
+  .harleybanner {
+    position: relative;
+  }
+  .harleybanner .image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 75%;
+    right: -35%;
+  }
+
+  .harleybanner .image .largeview {
+    display: none;
+  }
+
+  .harleybanner .image .smallview {
+    width: 20%;
+    height: 20%;
+    display: unset;
+  }
+
+  .harleybanner .imageright {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: 5;
+  }
+
+  .harleybanner .imageright img {
+    position: unset;
+    width: 50%;
+    height: 100%;
+    object-fit: fill;
+  }
+}

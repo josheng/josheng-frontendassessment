@@ -1,0 +1,81 @@
+.asiaonefooter {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  padding: 20px;
+  height: 201px;
+}
+
+.asiaonefooter img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.asiaonefooter .links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.asiaonefooter .links a {
+  display: block;
+  padding-right: 50px;
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+  color: #d05800;
+  font-weight: 500;
+}
+
+.asiaonefooter .links a:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-right: 1px solid white;
+}
+
+.coyreg {
+  position: absolute;
+  bottom: 0;
+}
+.coyreg p{
+  color: white;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+
+  /* Adjust styles for smaller screens */
+  .asiaonefooter .links {
+      display: inline-grid;
+      text-align: center;
+    }
+
+    .asiaonefooter .links a {
+      font-size: 15px;
+      text-align: center;
+      padding: 5px 0px 0px 0px;
+  }
+
+  .asiaonefooter img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .asiaonefooter .links a:not(:last-child)::after {
+    border-right: 0;
+  }
+
+  .coyreg p {
+    font-size: 9px;
+  }
+
+}
