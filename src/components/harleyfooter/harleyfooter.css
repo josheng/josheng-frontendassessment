@@ -1,0 +1,62 @@
+.harleybanner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  background-color: #d05800;
+  padding: 20px 0px 20px 0px;
+  height: 216px;
+}
+
+.harleybanner h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.harleybanner button {
+  background-color: #5c5646;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.harley-text{
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.harleybanner .image {
+  position: relative;
+  width: 30%;
+  height: 120%;
+  overflow: hidden;
+}
+
+.harleybanner .image img {
+  position: absolute;
+  left: -20%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.harleybanner .imageright {
+  position: relative;
+  width: 30%;
+  height: 119%;
+  overflow: hidden;
+}
+
+.harleybanner .imageright img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  right: 5%;
+}

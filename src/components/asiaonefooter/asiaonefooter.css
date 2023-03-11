@@ -1,0 +1,25 @@
+.asiaonefooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.asiaonefooter img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.asiaonefooter .links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.asiaonefooter .links a {
+  margin: 10px;
+  font-size: 18px;
+}
