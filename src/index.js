@@ -4,10 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Banner from './components/banner/banner';
+import Menu from './components/menu/menu';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Menu
+      line1="Harley-Davidson riders on how motorcycles helped them find their purpose"
+      line2="I'm the only woman in my group and at times, I also lead the group"
+      line3="Riding is a family affair"
+      line4="More stories of freedom"/>
     <Banner />
     <App />
   </React.StrictMode>

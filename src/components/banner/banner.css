@@ -39,6 +39,13 @@
   height: auto;
 }
 
+.rectangle {
+  height: 5px;
+  width: 100%;
+  background-color: lightgray;
+  margin: 0 auto;
+}
+
 
 .banner h1 {
   font-size: 70px;
