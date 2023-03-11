@@ -7,10 +7,13 @@ const AsiaOneFooter = () => {
     <div className="asiaonefooter">
       <img src={AsiaOneLogo} alt="Asia One Logo" />
       <div className="links">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-        <a href="#">Link 4</a>
+        <a href="#">About Us</a>
+        <a href="#">Advertise With Us</a>
+        <a href="#">Work With Us</a>
+        <a href="#">Privacy Statement</a>
+      </div>
+      <div className="coyreg">
+        <p><span style={{ color:"#d05800"}}>@asiaone 2023</span> Company Registration No.: 201815023K</p>
       </div>
     </div>
   );
