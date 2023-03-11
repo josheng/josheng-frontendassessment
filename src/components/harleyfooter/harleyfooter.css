@@ -38,12 +38,16 @@
   overflow: hidden;
 }
 
-.harleybanner .image img {
+.harleybanner .image .largeview {
   position: absolute;
   left: -20%;
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.harleybanner .image .smallview {
+  display: none;
 }
 
 .harleybanner .imageright {
@@ -59,4 +63,53 @@
   height: 100%;
   object-fit: fill;
   right: 5%;
+}
+
+@media (max-width: 767px) {
+
+  /* Adjust styles for smaller screens */
+  .harleybanner h2 {
+    font-size: 15px;
+    }
+  .harley-text{
+    position: absolute;
+    z-index: 99;
+    width: 65%;
+    right: 17%;
+  }
+  .harleybanner {
+    position: relative;
+  }
+  .harleybanner .image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 75%;
+    right: -35%;
+  }
+
+  .harleybanner .image .largeview {
+    display: none;
+  }
+
+  .harleybanner .image .smallview {
+    width: 20%;
+    height: 20%;
+    display: unset;
+  }
+
+  .harleybanner .imageright {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: 5;
+  }
+
+  .harleybanner .imageright img {
+    position: unset;
+    width: 50%;
+    height: 100%;
+    object-fit: fill;
+  }
 }
