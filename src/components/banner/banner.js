@@ -2,6 +2,7 @@ import * as React from "react";
 import "./banner.css";
 import harley from "../images/harleylogo.png"
 import aologo from "../images/asiaonelogo.png"
+import socials from "../images/socialmedia.png"
 
 const Banner = () => {
   return (
@@ -16,6 +17,9 @@ const Banner = () => {
         <h1>STORIES OF FREEDOM</h1>
       </div>
       <div className="rectangle"></div>
+      <div className="socials-wrapper">
+          <img src={socials} alt="Social Media" className="socialsImage"/>
+      </div>
     </div>
   );
 }

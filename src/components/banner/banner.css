@@ -57,6 +57,13 @@
   margin: 0;
 }
 
+.socials-wrapper {
+  text-align: center;
+  margin: 1%;
+}
+
+
+
 @media (max-width: 767px) {
 
   /* Adjust styles for smaller screens */
@@ -82,5 +89,10 @@
   .harley-wrapper{
     top: 58%;
     transform: scale(0.6,0.6);
+  }
+
+  .socials-wrapper {
+    margin: 5%;
+    transform: scale(0.8);
   }
 }
