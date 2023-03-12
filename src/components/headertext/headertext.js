@@ -8,7 +8,7 @@ function HeaderText(props) {
       <h2>{props.header2}</h2>
       {props.paragraphs.map((paragraph, index) => (
         <p key={index}>{paragraph}</p>
-      ))}
+        ))}
     </div>
   );
 }

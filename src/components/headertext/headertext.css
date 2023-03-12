@@ -21,6 +21,10 @@
   padding: 1% 0;
 }
 
+.text-wrapper img {
+  width: 50%;
+  height: 50%;
+}
 
 @media (max-width: 767px) {
 

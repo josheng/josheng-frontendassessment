@@ -1,16 +1,16 @@
 import React from 'react';
 import './avatar.css';
 
-const Avatar = ({ image, image2, name, quote }) => {
+const Avatar = (props) => {
   return (
     <div className="avatar-container">
       <div className="avatar">
-        <img src={image} alt={name} />
+        <img src={props.image} alt={props.name} />
       </div>
       <div className="quoteimg">
-        <img src={image2} alt={name} />
+        <img src={props.image2} alt={props.name} />
       </div>
-      <div className="quote">{quote}</div>
+      <div className="quote">{props.quote}</div>
     </div>
   );
 }
