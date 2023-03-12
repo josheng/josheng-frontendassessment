@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/josheng-frontendassessment/static/css/main.adbb4b3e.css",
+    "main.js": "/josheng-frontendassessment/static/js/main.df25898a.js",
+    "static/js/787.41eaa504.chunk.js": "/josheng-frontendassessment/static/js/787.41eaa504.chunk.js",
+    "static/media/banner.png": "/josheng-frontendassessment/static/media/banner.75765180cbecd25d1f7b.png",
+    "static/media/parallax.png": "/josheng-frontendassessment/static/media/parallax.6058dc0a909927b83d12.png",
+    "static/media/avatar.png": "/josheng-frontendassessment/static/media/avatar.fcef59083686bdf4c0a9.png",
+    "index.html": "/josheng-frontendassessment/index.html",
+    "main.adbb4b3e.css.map": "/josheng-frontendassessment/static/css/main.adbb4b3e.css.map",
+    "main.df25898a.js.map": "/josheng-frontendassessment/static/js/main.df25898a.js.map",
+    "787.41eaa504.chunk.js.map": "/josheng-frontendassessment/static/js/787.41eaa504.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.adbb4b3e.css",
+    "static/js/main.df25898a.js"
+  ]
+}
