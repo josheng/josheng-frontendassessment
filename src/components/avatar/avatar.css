@@ -31,6 +31,18 @@
   font-size: 20px;
 }
 
+.quoteimg {
+  position: relative;
+  width: 10%;
+  height: 100%;
+  right: -2%;
+  top: -19%
+}
+
+.quoteimg img {
+  width: 50%;
+  height: 100%;
+}
 
 @media (max-width: 767px) {
 .avatar-container {
@@ -52,11 +64,22 @@
   height: 100%;
 }
 
+.quoteimg {
+  position: unset;
+  width: unset;
+  height: unset;
+}
+
 .quote {
   position: relative;
   width: 85%;
   margin-top: 10px;
   font-size: 20px;
   right: -8%;
+}
+
+.quoteimg img {
+  width: 10%;
+  height: 100%;
 }
 }
